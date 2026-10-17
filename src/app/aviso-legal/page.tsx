@@ -5,7 +5,7 @@ import { SITE_URL, COMPANY_NAME } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: `Aviso Legal | ${COMPANY_NAME}`,
-  description: 'Aviso legal e información sobre el titular del sitio web JRF Gestión Energyca.',
+  description: 'Aviso legal e información sobre el titular del sitio web JRF Gestión Energya.',
   alternates: { canonical: `${SITE_URL}/aviso-legal` },
   robots: { index: false, follow: false },
 }
@@ -54,7 +54,7 @@ export default function AvisoLegal() {
             <li><strong className="text-brand-text">Titular:</strong> Juan Rayo Funes</li>
             <li><strong className="text-brand-text">NIF:</strong> 24249146Q</li>
             <li><strong className="text-brand-text">Domicilio:</strong> Calle Estación 1, 1A, 18110 Las Gabias, Granada (España)</li>
-            <li><strong className="text-brand-text">Nombre comercial:</strong> JRF Gestión Energyca</li>
+            <li><strong className="text-brand-text">Nombre comercial:</strong> JRF Gestión Energya</li>
             <li><strong className="text-brand-text">Sitio web:</strong>{' '}
               <a href={SITE_URL} className="text-brand-secondary hover:text-brand-bright transition-colors">{SITE_URL}</a>
             </li>

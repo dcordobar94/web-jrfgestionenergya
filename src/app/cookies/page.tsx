@@ -5,7 +5,7 @@ import { SITE_URL, COMPANY_NAME } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: `Política de Cookies | ${COMPANY_NAME}`,
-  description: 'Política de cookies del sitio web JRF Gestión Energyca.',
+  description: 'Política de cookies del sitio web JRF Gestión Energya.',
   alternates: { canonical: `${SITE_URL}/cookies` },
   robots: { index: false, follow: false },
 }

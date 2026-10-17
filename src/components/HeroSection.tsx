@@ -9,7 +9,7 @@ export default function HeroSection() {
         <div className="flex justify-center mb-6">
           <Image
             src="/images/logo_jrf.png"
-            alt="Logo JRF Gestión Energyca"
+            alt="Logo JRF Gestión Energya"
             width={260}
             height={260}
             className="object-contain"

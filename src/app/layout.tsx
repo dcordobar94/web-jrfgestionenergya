@@ -13,14 +13,14 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: `${COMPANY_NAME} | Asesoría Energética y Energía Solar`,
   description:
-    'Ahorra en tu factura energética con JRF Gestión Energyca. Asesoría energética personalizada y proyectos de energía solar para hogares y empresas en España.',
+    'Ahorra en tu factura energética con JRF Gestión Energya. Asesoría energética personalizada y proyectos de energía solar para hogares y empresas en España.',
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: `${COMPANY_NAME} | Asesoría Energética y Energía Solar`,
     description:
-      'Ahorra en tu factura energética con JRF Gestión Energyca. Asesoría energética personalizada y proyectos de energía solar.',
+      'Ahorra en tu factura energética con JRF Gestión Energya. Asesoría energética personalizada y proyectos de energía solar.',
     url: SITE_URL,
     type: 'website',
     locale: 'es_ES',

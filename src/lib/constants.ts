@@ -9,6 +9,6 @@ export const WHATSAPP_MESSAGE = encodeURIComponent(
 
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`
 
-export const COMPANY_NAME = 'JRF Gestión Energyca'
+export const COMPANY_NAME = 'JRF Gestión Energya'
 export const COMPANY_CIF = '24249146Q'
 export const COMPANY_ADDRESS = 'Calle Estación 1, 1A, 18110 Las Gabias, Granada'

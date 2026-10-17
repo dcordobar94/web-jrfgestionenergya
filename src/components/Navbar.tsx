@@ -49,7 +49,7 @@ export default function Navbar() {
             priority
           />
           <span className="hidden sm:inline text-brand-text font-bold text-lg">{COMPANY_NAME}</span>
-          <span className="sm:hidden text-brand-text font-bold text-base">JRF Energyca</span>
+          <span className="sm:hidden text-brand-text font-bold text-base">JRF Energya</span>
         </a>
 
         {/* Desktop nav */}

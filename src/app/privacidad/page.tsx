@@ -5,7 +5,7 @@ import { SITE_URL, COMPANY_NAME } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: `Política de Privacidad | ${COMPANY_NAME}`,
-  description: 'Política de privacidad y protección de datos de JRF Gestión Energyca.',
+  description: 'Política de privacidad y protección de datos de JRF Gestión Energya.',
   alternates: { canonical: `${SITE_URL}/privacidad` },
   robots: { index: false, follow: false },
 }
@@ -47,7 +47,7 @@ export default function Privacidad() {
               <Row label="Responsable" value="Juan Rayo Funes" />
               <Row label="NIF" value="24249146Q" />
               <Row label="Domicilio" value="Calle Estación 1, 1A, 18110 Las Gabias, Granada (España)" />
-              <Row label="Nombre comercial" value="JRF Gestión Energyca" />
+              <Row label="Nombre comercial" value="JRF Gestión Energya" />
               <Row label="Contacto" value="WhatsApp: 614 483 342" />
             </tbody>
           </table>
