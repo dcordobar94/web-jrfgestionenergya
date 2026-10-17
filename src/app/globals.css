@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Paleta corporativa JRF Gestión Energética ── */
+:root {
+  /* Fondos basados en verde oscuro y petróleo de la tarjeta */
+  --bg-main:           #071716;   /* Fondo general muy oscuro / verdoso */
+  --bg-surface:        #0E2927;   /* Fondos para contenedores, tarjetas o paneles */
+  --bg-gradient-teal:  #12403B;   /* Tono verde intermedio de las ondas fluidas */
+
+  /* Tonalidades del logotipo, textos y acentos (Amarillo / Dorado) */
+  --color-gold-primary: #E5BC58;  /* Color principal del texto y el sol del logo */
+  --color-gold-bright:  #F5D77F;  /* Brillos dorados más claros (bordes de las ondas) */
+  --color-gold-dark:    #A98436;  /* Sombra o tono dorado apagado */
+
+  /* Textos y elementos de soporte */
+  --text-main:    #E5BC58;        /* Texto principal (dorado de la tarjeta) */
+  --text-muted:   #C5A059;        /* Texto secundario o datos de contacto */
+  --border-color: #1B4D47;        /* Bordes sutiles inspirados en el tono verdoso */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-dark text-brand-text antialiased;
+  }
+
+  /* Scrollbar personalizada acorde a la paleta */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #071716;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1B4D47;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #E5BC58;
+  }
+
+  /* Selección de texto */
+  ::selection {
+    background-color: #E5BC58;
+    color: #071716;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Gradiente hero reutilizable */
+  .bg-hero-gradient {
+    background: linear-gradient(
+      135deg,
+      var(--bg-main) 0%,
+      var(--bg-gradient-teal) 50%,
+      var(--bg-surface) 100%
+    );
+  }
+
+  /* Borde dorado sutil para tarjetas */
+  .border-gold-subtle {
+    border-color: rgba(229, 188, 88, 0.2);
+  }
+
+  /* Glow dorado para elementos destacados */
+  .shadow-gold {
+    box-shadow: 0 0 24px rgba(229, 188, 88, 0.25);
+  }
+}

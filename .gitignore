@@ -1,0 +1,47 @@
+# ── Dependencias ──
+node_modules/
+.pnp
+.pnp.js
+
+# ── Build de Next.js ──
+.next/
+out/
+build/
+dist/
+
+# ── Tests / Coverage ──
+coverage/
+.nyc_output/
+
+# ── Entornos y variables sensibles ──
+.env
+.env.*
+!.env.example
+
+# ── Logs ──
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# ── Editor / IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Kiro (archivos internos del IDE) ──
+.kiro/
+
+# ── Sistema operativo ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── TypeScript ──
+*.tsbuildinfo
+
+# ── Material de diseño suelto (no referenciado en el código) ──
+tarjeta.jpeg
+logo_jrf.jfif
+Gemini_Generated_Image_24xpyj24xpyj24xp.jfif
